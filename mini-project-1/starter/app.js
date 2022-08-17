@@ -5,6 +5,8 @@ projectTitle.textContent = 'Title baru dari JS file';
 var thisIsFunction = 'This is function';
 const PI = 3.14;
 
+var y = 10;
+var z = 5;
 var x = y + z;
 
 function sumNum(a, b) {
@@ -13,6 +15,6 @@ function sumNum(a, b) {
 
 var iniSebuahVar = 'var';
 
-iniSebuahVar = 'Variable baru';
+IniSebuahVar = 'variable baru';
 
-var array = ['bubur ayam', 'kacang goreng', 3, 'bubur kacang ijo', '2000', 1999];
+console.log(iniSebuahVar);
