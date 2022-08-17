@@ -9,12 +9,20 @@ var y = 10;
 var z = 5;
 var x = y + z;
 
+// function di bawah ini akan return angka dari hasil penambahan
 function sumNum(a, b) {
   return a + b;
 }
 
 var iniSebuahVar = 'var';
 
-IniSebuahVar = 'variable baru';
+/**
+ ini adalah comment
+ dengan baris
+ lebih dari
+ satu
+ */
+
+// IniSebuahVar = 'variable baru';
 
 console.log(iniSebuahVar);
