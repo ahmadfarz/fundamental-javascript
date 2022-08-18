@@ -8,6 +8,8 @@
 
 // var foo = 'bar';
 
+// const bar = 'foo';
+
 //scope
 
 // for (let i = 0; i < 3; i++) {
@@ -16,17 +18,29 @@
 
 // console.log(i);
 
-function foo() {
-  let fooVar = 'bar';
+// function foo() {
+//   const fooVar = 'bar';
 
-  console.log('di dalam func ' + fooVar);
+//   console.log('di dalam func ' + fooVar);
 
-  return fooVar;
-}
+//   return fooVar;
+// }
 
-foo();
+// foo();
 
-console.log(fooVar);
+// console.log(fooVar);
+
+// const firstName = 'budy';
+
+// firstName = 'udin';
+
+// console.log(firstName);
+
+// const count = 0;
+
+// count++;
+
+// console.log(count);
 
 const projectTitle = document.querySelector('.project-title');
 
