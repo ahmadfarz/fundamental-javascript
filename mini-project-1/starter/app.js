@@ -1,15 +1,32 @@
-var name = 'Wegodev';
-var greeting = 'Hello, ';
+//Perbedaan Var dan Let
 
-// nama variable harus merepresentasikan isi variable
-var returnString = 'return';
+//hoisting
 
-/** Tidak boleh digunakan
- * var x = "wegodev programming school"
- * var y = 2000
- */
+// console.log(foo);
 
-console.log(greeting + name);
+// let name = 'wegodev';
+
+// var foo = 'bar';
+
+//scope
+
+// for (let i = 0; i < 3; i++) {
+//   console.log('hello ' + i);
+// }
+
+// console.log(i);
+
+function foo() {
+  let fooVar = 'bar';
+
+  console.log('di dalam func ' + fooVar);
+
+  return fooVar;
+}
+
+foo();
+
+console.log(fooVar);
 
 const projectTitle = document.querySelector('.project-title');
 
