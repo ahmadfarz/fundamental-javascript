@@ -1,21 +1,12 @@
-// String Values
+// Type Coercion
 
-let string1 = 'Ini adalah string';
+console.log('100' - 50);
 
-let multiLineString = 'Ini adalah paragraf 1 \nDan ini adalah paragraf 2';
-let multiLineString2 = `
-Ini adalah paragraf 1 dengan backtic
-Dan ini adalah paragraf 2
-`;
+console.log('100' + 50);
 
-let firstName = 'Ahmad';
-let lastName = 'Farizi';
-let shirtNumber = 10;
+console.log(8 * null);
 
-// Ini adalah string concatenates
-let namaLengkap = `${firstName} ${lastName} ${shirtNumber}`;
-
-console.log(namaLengkap);
+console.log('five' * 4);
 
 const projectTitle = document.querySelector('.project-title');
 
