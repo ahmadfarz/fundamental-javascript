@@ -1,16 +1,21 @@
-// Special Numbers
+// String Values
 
-let specialNum1 = Infinity;
+let string1 = 'Ini adalah string';
 
-let specialNum2 = -Infinity;
+let multiLineString = 'Ini adalah paragraf 1 \nDan ini adalah paragraf 2';
+let multiLineString2 = `
+Ini adalah paragraf 1 dengan backtic
+Dan ini adalah paragraf 2
+`;
 
-let specialCase = Infinity - 1;
+let firstName = 'Ahmad';
+let lastName = 'Farizi';
+let shirtNumber = 10;
 
-let specialNum3 = NaN;
+// Ini adalah string concatenates
+let namaLengkap = `${firstName} ${lastName} ${shirtNumber}`;
 
-let specialCase2 = 'five' - 0;
-
-console.log(specialCase2);
+console.log(namaLengkap);
 
 const projectTitle = document.querySelector('.project-title');
 
