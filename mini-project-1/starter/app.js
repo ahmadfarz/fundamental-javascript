@@ -1,12 +1,13 @@
-// Type Coercion
+// Boolean Values
 
-console.log('100' - 50);
+let yes = true;
+let no = false;
 
-console.log('100' + 50);
+// Comparison
 
-console.log(8 * null);
+console.log(2 >= 2);
 
-console.log('five' * 4);
+console.log('Apple' === 'Orange');
 
 const projectTitle = document.querySelector('.project-title');
 
