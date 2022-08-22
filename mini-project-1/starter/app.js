@@ -1,46 +1,9 @@
-//Perbedaan Var dan Let
+let number = 2020;
+let numberFrictional = 20.98;
 
-//hoisting
+let veryBigNumber = 1.889e8; // 188.900.000
 
-// console.log(foo);
-
-// let name = 'wegodev';
-
-// var foo = 'bar';
-
-// const bar = 'foo';
-
-//scope
-
-// for (let i = 0; i < 3; i++) {
-//   console.log('hello ' + i);
-// }
-
-// console.log(i);
-
-// function foo() {
-//   const fooVar = 'bar';
-
-//   console.log('di dalam func ' + fooVar);
-
-//   return fooVar;
-// }
-
-// foo();
-
-// console.log(fooVar);
-
-// const firstName = 'budy';
-
-// firstName = 'udin';
-
-// console.log(firstName);
-
-// const count = 0;
-
-// count++;
-
-// console.log(count);
+let anotherNum = '2000';
 
 const projectTitle = document.querySelector('.project-title');
 
