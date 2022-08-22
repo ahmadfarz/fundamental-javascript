@@ -1,22 +1,16 @@
-let additional = 1000 + 500;
+// Special Numbers
 
-let substraction = 1000 - 500;
+let specialNum1 = Infinity;
 
-let multiplication = 100 * 5;
+let specialNum2 = -Infinity;
 
-let division = 100 / 2;
+let specialCase = Infinity - 1;
 
-// Order of Arithmetics
+let specialNum3 = NaN;
 
-let edgeCase = 1000 + 4 * 2;
+let specialCase2 = 'five' - 0;
 
-// Modulus atau reminder = %
-
-let modulus = 320 % 100;
-
-let even = 25 % 2;
-
-console.log(modulus);
+console.log(specialCase2);
 
 const projectTitle = document.querySelector('.project-title');
 
